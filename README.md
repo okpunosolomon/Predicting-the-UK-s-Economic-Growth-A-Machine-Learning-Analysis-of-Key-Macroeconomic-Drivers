@@ -24,7 +24,7 @@ It helps:
 - 💰 Businesses and investors **assess risk** and **plan expansion** based on economic momentum.  
 - 📊 Analysts and financial institutions **monitor performance** using real data patterns rather than assumptions.  
 
-By combining **machine learning** with **historical trend analysis**, this project offers a practical, forward-looking view of the UK’s economic trajectory — bridging data science and strategic business planning.
+By combining **machine learning** with **historical trend analysis**, this project offers a practical, forward-looking view of the UK’s economic trajectory, bridging data science and strategic business planning.
 
 ---
 
