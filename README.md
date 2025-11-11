@@ -11,18 +11,18 @@ As a business and data analyst, the focus was to extract **actionable insights**
 
 **Key Outcomes:**
 
-- ⚙️ Built a forecasting model using **OLS Regression** and **Support Vector Regression (SVR)**.  
-- 💡 Identified **government spending, exchange rate, and employment** as top GDP influencers.  
-- 📈 Delivered a **data-driven GDP forecast** highlighting economic resilience and fiscal stability.  
+- Built a forecasting model using **OLS Regression** and **Support Vector Regression (SVR)**.  
+- Identified **government spending, exchange rate, and employment** as top GDP influencers.  
+- Delivered a **data-driven GDP forecast** highlighting economic resilience and fiscal stability.  
 
 ---
 
 ## 💼 2. Business Rationale
 Accurate GDP forecasting is vital for decision-makers in both public and private sectors.  
 It helps:
-- 🏛️ Governments **anticipate fiscal needs** and allocate resources effectively.  
-- 💰 Businesses and investors **assess risk** and **plan expansion** based on economic momentum.  
-- 📊 Analysts and financial institutions **monitor performance** using real data patterns rather than assumptions.  
+- Governments **anticipate fiscal needs** and allocate resources effectively.  
+- Businesses and investors **assess risk** and **plan expansion** based on economic momentum.  
+- Analysts and financial institutions **monitor performance** using real data patterns rather than assumptions.  
 
 By combining **machine learning** with **historical trend analysis**, this project offers a practical, forward-looking view of the UK’s economic trajectory, bridging data science and strategic business planning.
 
@@ -32,13 +32,13 @@ By combining **machine learning** with **historical trend analysis**, this proje
 **Source:** 🌍 World Development Indicators (1990–2022)
 
 **Key Variables**
-- 📉 Inflation (%)  
-- 💱 Exchange Rate (USD)  
-- 🏛️ Government Expenditure (% of GDP)  
-- 🌐 External Balance (% of GDP)  
-- 👷 Unemployment (%)  
-- 🏭 Industry (% of GDP)  
-- 💷 GDP per Capita (USD)  
+- Inflation (%)  
+- Exchange Rate (USD)  
+- Government Expenditure (% of GDP)  
+- External Balance (% of GDP)  
+- Unemployment (%)  
+- Industry (% of GDP)  
+- GDP per Capita (USD)  
 
 These indicators were chosen because they directly affect productivity, cost structures, investment confidence, and overall economic health.
 
@@ -115,11 +115,11 @@ GDP per capita showed a strong upward trend, confirming effective fiscal managem
 
 ![Correlation Matrix](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Heat%20Map%20(Correlation%20Matrix)%20of%20Economic%20Indicators.png)
 
-**💡 Business Insights:**
-- 🏛️ **Government spending** and **exchange rate stability** show strong positive relationships with GDP.  
-- 👷 **Unemployment** negatively impacts GDP, reinforcing that job growth drives productivity and spending.  
-- 🏭 **Industry output’s decline** does not slow GDP, service expansion offsets it.  
-- 💰 GDP growth aligns closely with **fiscal discipline** and **monetary stability**.
+**Business Insights:**
+- **Government spending** and **exchange rate stability** show strong positive relationships with GDP.  
+- **Unemployment** negatively impacts GDP, reinforcing that job growth drives productivity and spending.  
+- **Industry output’s decline** does not slow GDP, service expansion offsets it.  
+- GDP growth aligns closely with **fiscal discipline** and **monetary stability**.
 
 ---
 
@@ -127,7 +127,7 @@ GDP per capita showed a strong upward trend, confirming effective fiscal managem
 
 ![Model Performance](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Performance%20Metrics%20Comparison%20of%20OLS%20and%20SVR%20Models.png)
 
-| ⚙️ Model | 📉 RMSE | 📊 R² | 💬 Insight |
+| Model | RMSE | R² | Insight |
 |----------|---------|-------|-------------|
 | OLS | 2003.58 | 0.878 | Strong baseline accuracy using traditional regression. |
 | SVR | 1392.62 | 0.941 | Enhanced accuracy — captures nonlinear GDP trends. |
@@ -141,9 +141,9 @@ The **SVR model** improves forecast precision by 30% compared to standard OLS. T
 Using the SVR model, future GDP projections suggest continued upward growth under stable policy and employment conditions.  
 
 **What this means for decision-makers:**
-- 🏛️ **Policy Teams:** Can anticipate fiscal pressure points and adjust expenditure ahead of time.  
-- 💼 **Investors:** Gain early insight into macroeconomic stability for portfolio planning.  
-- 🏢 **Businesses:** Can align hiring and expansion decisions with growth forecasts.  
+- **Policy Teams:** Can anticipate fiscal pressure points and adjust expenditure ahead of time.  
+- **Investors:** Gain early insight into macroeconomic stability for portfolio planning.  
+- **Businesses:** Can align hiring and expansion decisions with growth forecasts.  
 
 **In summary:**  
 📊 Forecasting transforms raw data into forward-looking intelligence which enables organizations to plan **proactively**, not **reactively**.
@@ -159,10 +159,10 @@ Residuals were randomly distributed, indicating the model generalized well and a
 ---
 
 ## 💼 10. Business Takeaways
-- 💱 **Exchange rate** and **government spending** are the most consistent GDP drivers.  
-- 👷 **Employment** remains a strong predictor of growth stability.  
-- 🤖 **Machine learning models** deliver sharper foresight for decision-making.  
-- 💹 **GDP forecasting** supports effective budgeting, resource allocation, and risk assessment.  
+- **Exchange rate** and **government spending** are the most consistent GDP drivers.  
+- **Employment** remains a strong predictor of growth stability.  
+- **Machine learning models** deliver sharper foresight for decision-making.  
+- **GDP forecasting** supports effective budgeting, resource allocation, and risk assessment.  
 
 This project demonstrates how combining **business analysis** with **data science** leads to actionable insight, not just statistical evidence.
 
