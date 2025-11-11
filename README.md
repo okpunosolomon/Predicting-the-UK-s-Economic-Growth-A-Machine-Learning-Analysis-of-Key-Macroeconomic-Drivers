@@ -32,15 +32,6 @@ Through three decades of data, this project investigates how these factors colle
 
 ![Descriptive Statistics](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Descriptive%20Statistics%20of%20Economic%20Indicators%20and%20GDP%20per%20Capita.png)
 
-| Indicator | Mean | Median | Std Dev | Min | Max |
-|------------|------|---------|---------|------|------|
-| Inflation (%) | 2.97 | 3.00 | 0.41 | 2.50 | 3.50 |
-| Exchange Rate (USD) | 0.85 | 0.85 | 0.05 | 0.80 | 0.90 |
-| Government Expenditure (%) | 20.83 | 20.75 | 0.50 | 20.50 | 21.50 |
-| External Balance (%) | -0.60 | -0.60 | 0.10 | -0.70 | -0.50 |
-| Unemployment (%) | 5.23 | 5.20 | 0.25 | 5.00 | 5.50 |
-| Industry (%) | 25.50 | 25.50 | 0.50 | 25.00 | 26.00 |
-| GDP per Capita (USD) | 20000 | 20000 | 1000 | 19000 | 21000 |
 
 **Interpretation:**  
 The data reflects a **stable macroeconomic structure**, moderate inflation, and consistent fiscal policy.  
