@@ -6,10 +6,11 @@
 ---
 
 ## 1️⃣ Project Overview
-This project uses **data analytics and machine learning** to explore how key macroeconomic factors drive the United Kingdom’s **GDP per capita (1990–2022)** — and to forecast future economic performance.  
+This project uses **data analytics and machine learning** to explore how key macroeconomic factors drive the United Kingdom’s **GDP per capita (1990–2022)**, and to forecast future economic performance.  
 As a business and data analyst, the focus was to extract **actionable insights**, identify **key growth drivers**, and develop a **predictive model** that supports **policy planning**, **investment strategy**, and **economic stability assessments**.
 
 **Key Outcomes:**
+
 - ⚙️ Built a forecasting model using **OLS Regression** and **Support Vector Regression (SVR)**.  
 - 💡 Identified **government spending, exchange rate, and employment** as top GDP influencers.  
 - 📈 Delivered a **data-driven GDP forecast** highlighting economic resilience and fiscal stability.  
@@ -47,16 +48,6 @@ These indicators were chosen because they directly affect productivity, cost str
 
 ![Descriptive Statistics](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Descriptive%20Statistics%20of%20Economic%20Indicators%20and%20GDP%20per%20Capita.png)
 
-| Indicator | Mean | Median | Std Dev | Min | Max |
-|------------|------|---------|---------|------|------|
-| Inflation (%) | 2.97 | 3.00 | 0.41 | 2.50 | 3.50 |
-| Exchange Rate (USD) | 0.85 | 0.85 | 0.05 | 0.80 | 0.90 |
-| Government Expenditure (%) | 20.83 | 20.75 | 0.50 | 20.50 | 21.50 |
-| External Balance (%) | -0.60 | -0.60 | 0.10 | -0.70 | -0.50 |
-| Unemployment (%) | 5.23 | 5.20 | 0.25 | 5.00 | 5.50 |
-| Industry (%) | 25.50 | 25.50 | 0.50 | 25.00 | 26.00 |
-| GDP per Capita (USD) | 20000 | 20000 | 1000 | 19000 | 21000 |
-
 **🔍 Insight:**  
 Across three decades, the UK maintained **moderate inflation**, **stable employment**, and **consistent public spending**. GDP growth has been steady, supported by strong policy fundamentals.
 
@@ -66,6 +57,7 @@ Across three decades, the UK maintained **moderate inflation**, **stable employm
 
 ### 📉 Inflation  
 ![Inflation](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20Inflation.png)
+
 **Interpretation:**  
 Inflation remained largely controlled, apart from brief spikes during global crises. This stability supported consumer confidence and spending power, sustaining long-term GDP growth.
 
@@ -73,6 +65,7 @@ Inflation remained largely controlled, apart from brief spikes during global cri
 
 ### 💱 Exchange Rate  
 ![Exchange Rate](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20Exchange_Rate.png)
+
 **Interpretation:**  
 The pound strengthened gradually, indicating policy consistency and investor trust. A stable currency directly encourages foreign investment and export competitiveness.
 
@@ -80,13 +73,15 @@ The pound strengthened gradually, indicating policy consistency and investor tru
 
 ### 🏛️ Government Expenditure  
 ![Government Expenditure](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20Government_Expenditure.png)
+
 **Interpretation:**  
-Public spending rose during downturns — evidence of strategic fiscal intervention. This behavior highlights the UK’s proactive approach to cushioning economic shocks.
+Public spending rose during downturns, evidence of strategic fiscal intervention. This behavior highlights the UK’s proactive approach to cushioning economic shocks.
 
 ---
 
 ### 🌐 External Balance  
 ![External Balance](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20External_Balance.png)
+
 **Interpretation:**  
 The UK maintained a manageable trade deficit, reflecting its strong import capacity and diversified global partnerships.
 
@@ -94,20 +89,23 @@ The UK maintained a manageable trade deficit, reflecting its strong import capac
 
 ### 👷 Unemployment  
 ![Unemployment](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20Unemployment.png)
+
 **Interpretation:**  
-The steady fall in unemployment highlights an adaptable labor market and improved job retention post-recessions — both strong signs of a resilient economy.
+The steady fall in unemployment highlights an adaptable labor market and improved job retention post-recessions, are both strong signs of a resilient economy.
 
 ---
 
 ### 🏭 Industry  
 ![Industry](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20Industry.png)
+
 **Interpretation:**  
-The decline in industrial output is linked to the UK’s strategic shift from manufacturing to service-based industries — consistent with developed economies globally.
+The decline in industrial output is linked to the UK’s strategic shift from manufacturing to service-based industries, consistent with developed economies globally.
 
 ---
 
 ### 💷 GDP per Capita  
 ![GDP per Capita](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Time%20Series%20Plot%20of%20GDP_per_Capital.png)
+
 **Interpretation:**  
 GDP per capita showed a strong upward trend, confirming effective fiscal management and the country’s ability to generate wealth despite structural changes.
 
@@ -120,7 +118,7 @@ GDP per capita showed a strong upward trend, confirming effective fiscal managem
 **💡 Business Insights:**
 - 🏛️ **Government spending** and **exchange rate stability** show strong positive relationships with GDP.  
 - 👷 **Unemployment** negatively impacts GDP, reinforcing that job growth drives productivity and spending.  
-- 🏭 **Industry output’s decline** does not slow GDP — service expansion offsets it.  
+- 🏭 **Industry output’s decline** does not slow GDP, service expansion offsets it.  
 - 💰 GDP growth aligns closely with **fiscal discipline** and **monetary stability**.
 
 ---
@@ -148,14 +146,15 @@ Using the SVR model, future GDP projections suggest continued upward growth unde
 - 🏢 **Businesses:** Can align hiring and expansion decisions with growth forecasts.  
 
 **In summary:**  
-📊 Forecasting transforms raw data into forward-looking intelligence — enabling organizations to plan **proactively**, not **reactively**.
+📊 Forecasting transforms raw data into forward-looking intelligence which enables organizations to plan **proactively**, not **reactively**.
 
 ---
 
 ## 🧠 9. Model Validation
 
 ![Residual Analysis](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/Residual%20Plot%20of%20the%20OLS%20model%20without%20machine%20learning.png)
-Residuals were randomly distributed, indicating the model generalized well and avoided overfitting — key for reliable forecasting.
+
+Residuals were randomly distributed, indicating the model generalized well and avoided overfitting, key for reliable forecasting.
 
 ---
 
@@ -165,7 +164,7 @@ Residuals were randomly distributed, indicating the model generalized well and a
 - 🤖 **Machine learning models** deliver sharper foresight for decision-making.  
 - 💹 **GDP forecasting** supports effective budgeting, resource allocation, and risk assessment.  
 
-This project demonstrates how combining **business analysis** with **data science** leads to actionable insight — not just statistical evidence.
+This project demonstrates how combining **business analysis** with **data science** leads to actionable insight, not just statistical evidence.
 
 ---
 
@@ -183,10 +182,10 @@ This project demonstrates how combining **business analysis** with **data scienc
 ---
 
 ## 🚀 12. Conclusion
-This project proves that **machine learning enhances traditional business analysis** — turning historical patterns into **predictive insights**.  
+This project proves that **machine learning enhances traditional business analysis**, turning historical patterns into **predictive insights**.  
 The UK’s growth outlook remains positive, driven by **sound fiscal policy** and an **adaptive economy**.  
 
-Through this work, the aim is to show how **data analytics drives smarter, evidence-based decisions** — where forecasting becomes a **strategic business tool**, not just a research model.
+Through this work, the aim is to show how **data analytics drives smarter, evidence-based decisions**, where forecasting becomes a **strategic business tool**, not just a research model.
 
 ---
 
