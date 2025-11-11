@@ -1,4 +1,5 @@
-![Banner](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/151a6cfd-7fee-47b9-b286-bd50f92af4a5.png)
+![Banner](https://github.com/okpunosolomon/Predicting-the-UK-s-Economic-Growth-A-Machine-Learning-Analysis-of-Key-Macroeconomic-Drivers/blob/main/Visuals/1ce3607b-258f-4a9f-b7ae-6c46888e3f9a.png)
+
 
 # 📊 Predicting the UK’s Economic Growth  
 ### 🤖 A Machine Learning and Business Intelligence Approach to Understanding Key Economic Drivers
